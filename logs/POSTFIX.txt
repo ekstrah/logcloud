@@ -1,0 +1,57 @@
+Mar 1 00:00:00 avas postfix/smtpd[2410]: A1CE861A83: reject: RCPT from unknown[218.246.34.68]: 557 Service unavailable; Client host [218.246.34.68] blocked using list.dsbl.org; http://dsbl.org/listing?ip=218.246.34.68; from= to= proto=SMTP helo=
+Mar 1 00:00:02 avas postfix/smtpd[2410]: lost connection after RCPT from unknown[218.246.34.68]
+Mar 1 00:00:02 avas postfix/smtpd[2410]: disconnect from unknown[218.246.34.68]
+Mar 1 00:00:02 avas postfix/smtpd[1822]: connect from unknown[62.113.122.52]
+Mar 1 00:00:03 avas postfix/smtpd[1822]: 4EC6561A83: client=unknown[62.113.122.52]
+Mar 1 00:00:03 avas postfix/smtpd[2314]: connect from host81-153-11-97.range81-153.btcentralplus.com[81.153.11.97]
+Mar 1 00:00:03 avas postfix/smtpd[1822]: 4EC6561A83: reject: RCPT from unknown[62.113.122.52]: 450 : Sender address rejected: Domain not found; from= to= proto=ESMTP helo=
+Mar 1 00:00:03 avas postfix/smtpd[2314]: C0E5861AA4: client=host81-153-11-97.range81-153.btcentralplus.com[81.153.11.97]
+Mar 1 00:00:04 avas postfix/smtpd[2314]: C0E5861AA4: reject: RCPT from host81-153-11-97.range81-153.btcentralplus.com[81.153.11.97]: 450 : Sender address rejected: Domain not found; from= to= proto=ESMTP helo=
+Mar 1 00:00:05 avas postfix/pickup[1473]: 445C261AA4: uid=0 from=
+Mar 1 00:00:05 avas postfix/cleanup[2400]: 445C261AA4: message-id=<20040301080005.445C261AA4@avas.example.com>
+Mar 1 00:00:05 avas postfix/qmgr[23698]: 445C261AA4: from=, size=704, nrcpt=1 (queue active)
+Mar 1 00:00:05 avas postfix/smtpd[2314]: disconnect from host81-153-11-97.range81-153.btcentralplus.com[81.153.11.97]
+Mar 1 00:00:06 avas postfix/smtpd[2579]: connect from avas.example.com[127.0.0.1]
+Mar 1 00:00:06 avas postfix/smtpd[2579]: 4391461A83: client=avas.example.com[127.0.0.1]
+Mar 1 00:00:06 avas postfix/cleanup[1666]: 4391461A83: message-id=<20040301080005.445C261AA4@avas.example.com>
+Mar 1 00:00:06 avas postfix/qmgr[23698]: 4391461A83: from=, size=1048, nrcpt=1 (queue active)
+Mar 1 00:00:06 avas postfix/smtpd[2579]: disconnect from avas.example.com[127.0.0.1]
+Mar 1 00:00:06 avas amavis[2430]: (02430-01) Passed,  -> , Message-ID: <20040301080005.445C261AA4@avas.example.com>, Hits: 0
+Mar 1 00:00:06 avas postfix/smtp[2573]: 445C261AA4: to=, relay=127.0.0.1[127.0.0.1], delay=1, status=sent (250 2.6.0 Ok, id=02430-01, from MTA: 250 Ok: queued as 4391461A83)
+Mar 1 00:00:06 avas postfix/smtp[2580]: 4391461A83: to=, relay=10.0.0.251[10.0.0.251], delay=0, status=sent (250 Command DATA Processed mail data Ok)
+Mar 1 00:00:13 avas postfix/smtpd[2411]: warning: 208.37.192.234: address not listed for hostname mail.globrite.com
+Mar 1 00:00:13 avas postfix/smtpd[2411]: connect from unknown[208.37.192.234]
+Mar 1 00:00:14 avas postfix/smtpd[2411]: disconnect from unknown[208.37.192.234]
+Mar 1 00:00:28 avas postfix/smtpd[2413]: warning: 208.37.192.234: address not listed for hostname mail.globrite.com
+Mar 1 00:00:28 avas postfix/smtpd[2413]: connect from unknown[208.37.192.234]
+Mar 1 00:00:29 avas postfix/smtpd[2413]: disconnect from unknown[208.37.192.234]
+Mar 1 00:00:43 avas postfix/smtpd[2410]: warning: 208.37.192.234: address not listed for hostname mail.globrite.com
+Mar 1 00:00:43 avas postfix/smtpd[2410]: connect from unknown[208.37.192.234]
+Mar 1 00:00:44 avas postfix/smtpd[2410]: disconnect from unknown[208.37.192.234]
+Mar 1 00:00:58 avas postfix/smtpd[2314]: warning: 208.37.192.234: address not listed for hostname mail.globrite.com
+Mar 1 00:00:58 avas postfix/smtpd[2314]: connect from unknown[208.37.192.234]
+Mar 1 00:00:59 avas postfix/smtpd[2314]: disconnect from unknown[208.37.192.234]
+Mar 1 00:01:10 avas postfix/smtpd[1822]: disconnect from unknown[62.113.122.52]
+Mar 1 00:01:13 avas postfix/smtpd[2411]: warning: 208.37.192.234: address not listed for hostname mail.globrite.com
+Mar 1 00:01:13 avas postfix/smtpd[2411]: connect from unknown[208.37.192.234]
+Mar 1 00:01:14 avas postfix/smtpd[2411]: disconnect from unknown[208.37.192.234]
+Mar 1 00:01:29 avas postfix/smtpd[2413]: warning: 208.37.192.234: address not listed for hostname mail.globrite.com
+Mar 1 00:01:29 avas postfix/smtpd[2413]: connect from unknown[208.37.192.234]
+Mar 1 00:01:29 avas postfix/smtpd[2413]: disconnect from unknown[208.37.192.234]
+Mar 1 00:01:31 avas postfix/smtpd[2410]: connect from user-0c99au7.cable.mindspring.com[24.148.171.199]
+Mar 1 00:01:34 avas postfix/smtpd[2410]: AA8F561A83: client=user-0c99au7.cable.mindspring.com[24.148.171.199]
+Mar 1 00:01:36 avas postfix/smtpd[2410]: AA8F561A83: reject: RCPT from user-0c99au7.cable.mindspring.com[24.148.171.199]: 557 Service unavailable; Client host [24.148.171.199] blocked using list.dsbl.org; http://dsbl.org/listing?ip=24.148.171.199; from= to= proto=SMTP helo=
+Mar 1 00:01:36 avas postfix/smtpd[2314]: connect from unknown[218.149.178.173]
+Mar 1 00:01:38 avas postfix/smtpd[2314]: 2B34C61AA4: client=unknown[218.149.178.173]
+Mar 1 00:01:38 avas postfix/smtpd[1822]: connect from host76-117.pool80180.interbusiness.it[80.180.117.76]
+Mar 1 00:01:39 avas postfix/smtpd[2410]: lost connection after RCPT from user-0c99au7.cable.mindspring.com[24.148.171.199]
+Mar 1 00:01:39 avas postfix/smtpd[2410]: disconnect from user-0c99au7.cable.mindspring.com[24.148.171.199]
+Mar 1 00:01:43 avas postfix/smtpd[1822]: 0141A61A83: client=host76-117.pool80180.interbusiness.it[80.180.117.76]
+Mar 1 00:01:44 avas postfix/smtpd[2411]: warning: 208.37.192.234: address not listed for hostname mail.globrite.com
+Mar 1 00:01:44 avas postfix/smtpd[2411]: connect from unknown[208.37.192.234]
+Mar 1 00:01:44 avas postfix/smtpd[2411]: disconnect from unknown[208.37.192.234]
+Mar 1 00:01:47 avas postfix/smtpd[2314]: 2B34C61AA4: reject: RCPT from unknown[218.149.178.173]: 557 Service unavailable; Client host [218.149.178.173] blocked using dnsbl.sorbs.net; Dynamic IP Address See: http://www.dnsbl.sorbs.net/cgi-bin/lookup?IP=218.149.178.173; from= to= proto=SMTP helo=<10.0.0.214>
+Mar 1 00:01:49 avas postfix/smtpd[2314]: disconnect from unknown[218.149.178.173]
+Mar 1 00:01:54 avas postfix/smtpd[1822]: 0141A61A83: reject: RCPT from host76-117.pool80180.interbusiness.it[80.180.117.76]: 557 Service unavailable; Client host [80.180.117.76] blocked using dnsbl.sorbs.net; Dynamic IP Address See: http://www.dnsbl.sorbs.net/cgi-bin/lookup?IP=80.180.117.76; from=<00rkug3ytgb83@cyberlink.com> to= proto=SMTP helo=
+Mar 1 00:01:57 avas postfix/smtpd[1822]: lost connection after RCPT from host76-117.pool80180.interbusiness.it[80.180.117.76]
+Mar 1 00:01:57 avas postfix/smtpd[1822]: disconnect from host76-117.pool80180.interbusiness.it[80.180.117.76]
