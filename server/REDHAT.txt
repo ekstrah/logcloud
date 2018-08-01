@@ -1,0 +1,51 @@
+Mar 7 13:38:49 avas sshd[29707]: Accepted password for tom from 24.70.69.74 port 64035
+Mar 8 09:01:06 avas sshd[21839]: Accepted password for tom from 10.0.0.19 port 32781 ssh2
+Mar 8 10:17:52 avas sshd[24556]: Accepted password for tom from 10.0.0.19 port 32798 ssh2
+Mar 8 11:30:48 avas sshd[28104]: Accepted password for tom from 10.0.0.19 port 32807 ssh2
+Mar 8 12:06:00 avas sshd[29619]: Accepted publickey for tom from 10.0.0.251 port 4242 ssh2
+Mar 8 12:06:00 avas sshd[29619]: subsystem request for sftp
+Mar 8 15:15:06 avas sshd[3749]: Could not reverse map address 10.0.0.153.
+Mar 8 15:15:06 avas sshd[3749]: Accepted password for tom from 10.0.0.153 port 4455 ssh2
+Mar 8 16:06:02 avas sshd[5444]: Accepted publickey for tom from 10.0.0.251 port 3460 ssh2
+Mar 8 16:06:02 avas sshd[5444]: subsystem request for sftp
+Mar 8 23:05:11 avas sshd[14340]: Did not receive identification string from 210.150.142.17
+Mar 9 10:40:47 avas sshd[30036]: Accepted password for tom from 10.0.0.19 port 32800 ssh2
+Mar 9 12:06:05 avas sshd[4019]: Accepted publickey for tom from 10.0.0.251 port 2624 ssh2
+Mar 9 12:06:05 avas sshd[4019]: subsystem request for sftp
+Mar 9 13:45:19 avas sshd[7180]: Accepted password for tom from 10.0.0.19 port 32829 ssh2
+Mar 9 15:25:19 avas sshd[10514]: Accepted password for tom from 10.0.0.19 port 32848 ssh2
+Mar 9 16:06:04 avas sshd[12054]: Accepted publickey for tom from 10.0.0.251 port 2173 ssh2
+Mar 9 16:06:04 avas sshd[12054]: subsystem request for sftp
+Mar 10 08:10:57 avas sshd[31289]: Could not reverse map address 10.0.0.19.
+Mar 10 08:11:01 avas sshd[31289]: Accepted password for tom from 10.0.0.19 port 32773 ssh2
+Mar 10 09:40:47 avas sshd[6237]: Accepted password for tom from 10.0.0.19 port 32792 ssh2
+Mar 10 12:06:10 avas sshd[10257]: Accepted publickey for tom from 10.0.0.251 port 3131 ssh2
+Mar 10 12:06:10 avas sshd[10257]: subsystem request for sftp
+Mar 10 12:59:27 avas sshd[12887]: Did not receive identification string from 24.242.145.152
+Mar 10 16:06:10 avas sshd[19098]: Accepted publickey for tom from 10.0.0.251 port 1764 ssh2
+Mar 10 16:06:10 avas sshd[19098]: subsystem request for sftp
+Mar 11 12:06:14 avas sshd[15853]: Accepted publickey for tom from 10.0.0.251 port 3657 ssh2
+Mar 11 12:06:14 avas sshd[15853]: subsystem request for sftp
+Mar 11 13:31:51 avas sshd[19102]: Accepted password for tom from 10.0.0.19 port 32834 ssh2
+Mar 11 15:22:22 avas sshd[23185]: Could not reverse map address 10.0.0.153.
+Mar 11 15:22:22 avas sshd[23185]: Accepted password for tom from 10.0.0.153 port 1741 ssh2
+Mar 11 16:06:12 avas sshd[24483]: Accepted publickey for tom from 10.0.0.251 port 1714 ssh2
+Mar 11 16:06:12 avas sshd[24483]: subsystem request for sftp
+Mar 12 10:06:17 avas sshd[17227]: Accepted password for tom from 10.0.0.19 port 32793 ssh2
+Mar 12 10:53:50 avas sshd[18886]: Could not reverse map address 10.0.0.153.
+Mar 12 10:53:50 avas sshd[18886]: Accepted password for tom from 10.0.0.153 port 1776 ssh2
+Mar 12 12:06:18 avas sshd[21409]: Accepted publickey for tom from 10.0.0.251 port 3247 ssh2
+Mar 12 12:06:18 avas sshd[21409]: subsystem request for sftp
+Mar 12 13:23:48 avas sshd[23510]: input_userauth_request: illegal user avas.cnc.bc.ca
+Mar 12 13:23:48 avas sshd[23510]: Could not reverse map address 10.0.0.153.
+Mar 12 13:23:48 avas sshd[23510]: Failed none for illegal user phil from 10.0.0.153 port 2006 ssh2
+Mar 12 13:23:48 avas sshd[23510]: Failed keyboard-interactive for illegal user phil from 10.0.0.153 port 2006 ssh2
+Mar 12 13:23:51 avas sshd[23510]: Failed password for illegal user phil from 10.0.0.153 port 2006 ssh2
+Mar 12 13:23:51 avas sshd[23510]: Failed none for illegal user phil from 10.0.0.153 port 2006 ssh2
+Mar 12 13:23:51 avas sshd[23510]: Failed keyboard-interactive for illegal user phil from 10.0.0.153 port 2006 ssh2
+Mar 12 13:23:58 avas sshd[23510]: Failed password for illegal user phil from 10.0.0.153 port 2006 ssh2
+Mar 12 13:23:58 avas sshd[23510]: Failed none for illegal user phil from 10.0.0.153 port 2006 ssh2
+Mar 12 13:23:58 avas sshd[23510]: Failed keyboard-interactive for illegal user phil from 10.0.0.153 port 2006 ssh2
+Mar 12 13:23:58 avas sshd[23510]: Disconnecting: Too many authentication failures for avas.cnc.bc.ca
+Mar 12 13:24:17 avas sshd[23522]: Could not reverse map address 10.0.0.153.
+Mar 12 13:24:17 avas sshd[23522]: Accepted password for tom from 10.0.0.153 port 2007 ssh2

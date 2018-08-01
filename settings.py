@@ -5,12 +5,8 @@ import npyscreen
 now = datetime.datetime.now()
 
 def writeSettings(userName, email, logList):
-    # userName = userNameO.get_value()
-    # email = emailO.get_value()
-    # logList = logListO.get_selected_objects()
     logCount = len(logList)
     os.chdir('../')
-    # print 'Initializing Settings for your use'
     with open('setting.config', 'w') as fp:
         fp.write('userName='+userName+'\n')
         fp.write('email='+email+'\n')
@@ -28,6 +24,6 @@ def configExist():
 
 
 
-# if __name__ == '__main__':
-#     writeSettings('dongho', 'dongho@dongho.com', ['Hey', 'How are  you?'])
-    # print configExist()
+if __name__ == '__main__':
+    writeSettings('dongho', 'dongho@dongho.com', ['Hey', 'How are  you?'])
+    print configExist()

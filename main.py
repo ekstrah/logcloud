@@ -41,6 +41,9 @@ class SettingApp(npyscreen.NPSApp):
     
     def formalizeAndSend(self):
         mainLogFunc(self.username, self.email, self.logName)
+    
+    def sendLog(self):
+        sendLogToStorage(self.logName)
 
 
 if __name__ == "__main__":
@@ -49,4 +52,5 @@ if __name__ == "__main__":
     App.setDataType()
     App.createSettings()
     App.formalizeAndSend()
+    App.sendLog()
 
